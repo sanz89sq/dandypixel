@@ -7,10 +7,13 @@
     "interstitial_enabled": true,
     "rewarded_enabled": true,
     "interstitial_every_actions": 20,
-    "interstitial_cooldown_sec": 25,
-    "first_interstitial_after_sec": 60,
+    "interstitial_cooldown_sec": 45,
+    "first_interstitial_after_sec": 45,
+    "rewarded_grace_sec": 30,
+    "max_interstitials_per_session": 15,
     "app_open_enabled": true,
-    "app_open_cooldown_sec": 60,
+    "app_open_cooldown_sec": 180,
+    "app_open_min_background_sec": 20,
     "click_pause_sec": 60
   },
   "paywall": {
@@ -28,13 +31,13 @@
     "christmas_to": "01-06"
   },
   "cross_promo": {
-    "enabled": false,
+    "enabled": true,
     "rotate_sec": 8,
     "hide_for_subscribers": true,
     "on_map": true,
     "in_rooms": true,
     "in_creator": true,
-    "apps": [
+        "apps": [
       {
         "package": "com.dandypixel.tocawallpaper"
       },
