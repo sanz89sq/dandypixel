@@ -1,0 +1,84 @@
+{
+  "update_status": false,
+  "update_message": "Update available!\nA new version of the game is ready with new surprises.\nUpdate now to keep playing.",
+  "update_url": "https://play.google.com/store/apps/details?id=com.dandypixel.pet.life.world",
+  "message": "",
+  "ads": {
+    "interstitial_enabled": true,
+    "rewarded_enabled": true,
+    "interstitial_every_actions": 20,
+    "interstitial_cooldown_sec": 45,
+    "first_interstitial_after_sec": 45,
+    "rewarded_grace_sec": 30,
+    "max_interstitials_per_session": 15,
+    "app_open_enabled": true,
+    "app_open_cooldown_sec": 180,
+    "app_open_min_background_sec": 20,
+    "click_pause_sec": 60
+  },
+  "paywall": {
+    "first_session": 2,
+    "show_on_launch": false,
+    "show_every_sessions": 1,
+    "close_button_delay_sec": 2.0,
+    "close_button_scale": 1.0
+  },
+  "rate_us_after_actions": 3,
+  "start_room": "pets",
+  "season": {
+    "christmas": "auto",
+    "christmas_from": "11-10",
+    "christmas_to": "01-06"
+  },
+  "cross_promo": {
+    "enabled": true,
+    "rotate_sec": 8,
+    "hide_for_subscribers": true,
+    "on_map": true,
+    "in_rooms": true,
+    "in_creator": true,
+    "apps": [
+      {
+        "package": "com.dandypixel.tocawallpaper"
+      },
+      {
+        "package": "com.dandypixel.mermaid.salon.games"
+      },
+      {
+        "package": "com.dandypixel.christmas.dollhouse"
+      },
+      {
+        "package": "com.dandypixel.cozy.asmr.home"
+      },
+      {
+        "package": "com.dandypixel.rainbow.town.world"
+      },
+      {
+        "package": "com.dandypixel.hospital.daycare"
+      },
+      {
+        "package": "com.dandypixel.school.life.town"
+      },
+      {
+        "package": "com.dandypixel.kpop.idol.world"
+      },
+      {
+        "package": "com.dandypixel.princess.school.world"
+      },
+      {
+        "package": "com.dandypixel.pet.life.world"
+      },
+      {
+        "package": "com.dandypixel.idol.star.world"
+      },
+      {
+        "package": "com.dandypixel.dream.life.world"
+      }
+    ]
+  },
+  "links": {
+    "privacy": "https://dandypixel.app/privacy/",
+    "terms": "https://dandypixel.app/terms/",
+    "contact": "https://dandypixel.app/contact/"
+  }
+}
