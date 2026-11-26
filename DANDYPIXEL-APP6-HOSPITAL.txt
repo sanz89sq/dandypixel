@@ -33,7 +33,7 @@
   },
 
   "cross_promo": {
-    "enabled": false,
+    "enabled": true,
     "rotate_sec": 8,
     "hide_for_subscribers": true,
     "on_map": true,
